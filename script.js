@@ -1,4 +1,3 @@
-<script>
         var obj ={'Products':[
             {cname:"samsung" ,price:50000 , item:"laptop" },
             {cname:"samsung" ,price:50000 , item:"laptop" },
@@ -70,4 +69,4 @@
         }
             }
         }
-    </script>
+    
