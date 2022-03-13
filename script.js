@@ -42,7 +42,6 @@
                 document.getElementById("msg").innerHTML=""
                 document.getElementById("greet").innerHTML=""
                 document.getElementById("warn").innerHTML="<b>Please Enter Product First"
-            console.log(fil)
             }
             else {
                 document.getElementById("warn").innerHTML=""
@@ -51,7 +50,6 @@
                 x.price < fil ||
                 x.item == fil.toLowerCase();
             })
-            console.log(newData)
             if(newData.length==0){
                 document.getElementById("msg").innerHTML=""
                 document.getElementById("greet").innerHTML=""
